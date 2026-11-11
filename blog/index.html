@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- TODO: Replace "Your Name" with your actual name -->
+  <title>Blog | Your Name</title>
+  <meta name="description" content="Notes on data analytics, tools, and what I'm learning — by Your Name." />
+
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self';
+      script-src 'self';
+      style-src 'self';
+      img-src 'self' data:;
+      font-src 'self';
+      frame-ancestors 'none';
+    "
+  />
+
+  <!-- Path goes up one level since this file is in /blog/ -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <!-- TODO: Replace with your name or initials -->
+      <a class="nav-logo" href="../index.html">YN<span class="accent">.</span></a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+        <li><a href="../blog/" aria-current="page">Blog</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark and light mode" aria-pressed="true">
+          <span class="theme-icon" aria-hidden="true">☀</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section" style="padding-top: calc(var(--nav-height) + var(--space-3xl));" aria-labelledby="blog-index-heading">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-label">bADING</span>
+          <h1 id="blog-index-heading">Blog</h1>
+          <p class="section-subtitle">Notes on data, tools, and what I'm figuring out as a student analyst.</p>
+        </div>
+
+        <div class="blog-grid">
+
+          <!--
+            TODO: Add a card here for each blog post you write.
+            Create the post as a separate .html file (e.g., post-1.html)
+            and update the href to match the filename.
+          -->
+
+          <article class="blog-card reveal" aria-labelledby="post1-title">
+            <span class="blog-date">November 2025</span>
+            <h3 id="post1-title" class="blog-title">
+              <a href="blog/post-1.html">What a Cybersecurity Seminar Taught Me </a>
+            </h3>
+            <!-- TODO: Write a 1–2 sentence teaser for the post -->
+            <p class="blog-excerpt">It was eye-opening because we spend so much time in school learning how to build systems, but rarely talk about how to protect them.</p>
+            <a href="blog/post-1.html" class="blog-read-more" aria-label="Read more of your first post">Read more →</a>
+          </article>
+
+          <article class="blog-card reveal" aria-labelledby="blog-post2">
+            <span class="blog-date">[Month Year]</span>
+            <h2 id="blog-post2" class="blog-title">
+              <a href="post-2.html">[Your Second Post Title]</a>
+            </h2>
+            <p class="blog-excerpt">[Excerpt for post two.]</p>
+            <a href="post-2.html" class="blog-read-more" aria-label="Read your second post">Read more →</a>
+          </article>
+        
+          <article class="blog-card reveal" aria-labelledby="post3-title">
+            <span class="blog-date">[Month Year]</span>
+            <h3 id="post3-title" class="blog-title">
+              <a href="blog/post-3.html">[Your Third Post Title]</a>
+            </h3>
+            <p class="blog-excerpt">
+              [Excerpt for your third post.]
+            </p>
+            <a href="blog/post-3.html" class="blog-read-more" aria-label="Read more of your third post">Read more →</a>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <!-- TODO: Replace "Your Name" -->
+        <p class="footer-copy">&copy; <span id="footer-year"></span> Your Name</p>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="../index.html">Home</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

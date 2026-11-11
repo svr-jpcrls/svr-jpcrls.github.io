@@ -1,0 +1,39 @@
+# .gitignore
+# Tells Git which files to never commit to the repository.
+# This keeps sensitive files, OS clutter, and editor junk out of your public repo.
+
+# ----- Environment and config files -----
+# Never commit API keys, tokens, or passwords.
+.env
+.env.local
+.env.*.local
+*.env
+config.local.js
+secrets.js
+
+# ----- OS junk -----
+.DS_Store           # macOS folder metadata
+Thumbs.db           # Windows thumbnail cache
+Desktop.ini
+ehthumbs.db
+
+# ----- Editor/IDE files -----
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ----- Node.js (if you ever add build tools later) -----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ----- Logs -----
+*.log
+
+# ----- Build output (if you ever use a bundler) -----
+dist/
+build/
+.cache/

@@ -1,0 +1,12 @@
+# CNAME — Custom Domain Configuration
+#
+# If you purchase a custom domain (e.g., yourname.dev), write it on the
+# first uncommented line below (no "https://", no trailing slash).
+#
+# Example:
+#   yourname.dev
+#
+# Then follow the DNS setup steps in Part 1, Optional Step of the tutorial.
+#
+# If you are NOT using a custom domain, leave this file empty.
+# GitHub Pages will use yourusername.github.io by default.

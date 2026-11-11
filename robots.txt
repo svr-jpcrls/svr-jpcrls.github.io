@@ -6,4 +6,4 @@ User-agent: *
 Allow: /
 
 # TODO: Replace with your actual GitHub Pages URL (or custom domain if you set one up)
-Sitemap: https://yourusername.github.io/sitemap.xml
+Sitemap: https://svr-jpcrls.github.io/sitemap.xml

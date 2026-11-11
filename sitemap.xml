@@ -1,40 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  SITEMAP.XML
-  Tells search engines which pages exist on your site.
-  TODO: Replace every instance of "yourusername" below with your actual GitHub username.
-  If you set up a custom domain, replace the full https://yourusername.github.io
-  base URL with your custom domain (e.g., https://yourname.dev).
-
-  Update the <lastmod> dates whenever you make significant changes to a page.
-  Format: YYYY-MM-DD
--->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://github.com/svr-jpcrls/svr-jpcrls.github.io/</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://svr-jpcrls.github.io/</loc>
+    <lastmod>2025-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://github.com/svr-jpcrls/svr-jpcrls.github.io/blog/</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://svr-jpcrls.github.io/blog/</loc>
+    <lastmod>2025-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!--
-    TODO: Add a <url> entry below for each blog post you write.
-    Copy and paste this block and fill in the slug and date.
-
   <url>
-    <loc>https://yourusername.github.io/blog/your-post-slug.html</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <loc>https://svr-jpcrls.github.io/blog/post-1.html</loc>
+    <lastmod>2025-11-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
-  -->
+
+  <url>
+    <loc>https://svr-jpcrls.github.io/blog/post-2.html</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
 </urlset>
